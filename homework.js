@@ -33,4 +33,6 @@ Student.prototype.learn = function () {
 
 Student.prototype = Object.create(Human);
 
-Student.work();
+const freshStudent = new Student(19, 183);
+
+freshStudent.work();
